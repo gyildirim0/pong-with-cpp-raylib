@@ -18,7 +18,7 @@ AI::AI() {
 void AI::Draw() {
 
 	DrawRectangle(position.x, position.y, 30, 150, WHITE);
-	DrawLine(ballPos.x + 10, ballPos.y + 10, (ballPos.x + 10) + (ballVector.x * 30), (ballPos.y + 10) - (ballVector.y * 30), WHITE);
+	//DrawLine(ballPos.x + 10, ballPos.y + 10, (ballPos.x + 10) + (ballVector.x * 30), (ballPos.y + 10) - (ballVector.y * 30), WHITE);
 	
 }
 
